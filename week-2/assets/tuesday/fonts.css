@@ -1,0 +1,32 @@
+    
+body {
+        font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        font-style: italic;
+        line-height: 40px;
+        
+}
+#welcome .example {
+    text-align: center;
+    text-decoration: underline color blue;
+    text-transform: capitalize;
+    text-overflow: clip;
+    opacity: 0.5;
+    border-radius: 10px;
+    border: color(gr red green blue);
+    width: 800;
+    background-image: url(https://images.unsplash.com/photo-1472214103451-9374bd1c798e?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGljfGVufDB8fDB8fHww);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    height: 300px;
+    background-attachment: fixed;
+}
+
+#bye .example-0  {
+    color: brown;
+    text-align: center;
+    background-position: center;
+    display: block; 
+background-image: url(https://images.unsplash.com/photo-1472214103451-9374bd1c798e?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGljfGVufDB8fDB8fHww);
+
+}

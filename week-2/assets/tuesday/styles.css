@@ -1,0 +1,31 @@
+h1 {
+    color:blue;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-transform: uppercase;
+    text-align: center;
+
+}
+
+p {
+    color: rgba(255, 0, 50, 0.8);
+font-family: Arial, Helvetica, sans-serif;
+font-style: oblique;
+text-transform: capitalize;
+text-align: center;
+  }
+
+  span {
+    text-decoration: underline;
+
+  }
+  
+button:hover { 
+    text-align: center;
+        color: blue;
+  }
+  #button:hover {
+    color: red;
+  }
+  

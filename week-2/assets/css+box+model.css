@@ -1,0 +1,18 @@
+div {
+    background-color: #00D1AE;
+    width: 170px;
+    border: 1px solid #17212e;
+    border-top-left-radius: 12px;
+    padding: 10px 10px 10px 10px;
+}
+
+.circular-div {
+    background-color: #ccc;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    padding: 10px 10px 10px 10px;
+    box-sizing: content-box;
+    
+  }
+  

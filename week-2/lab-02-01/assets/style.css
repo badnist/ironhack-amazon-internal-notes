@@ -1,0 +1,37 @@
+/* CSS RESET - do not remove */
+/* Reset default browser styles and provide a consistent starting point */
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+    
+      font-family: 'Open Sans', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: #444;
+      font-weight: 400;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+    font-weight: lighter;
+  }
+  .apple-pie-image {
+    height:120rem;
+ background-size: cover;  }
+
+
+  h1 {
+    text-align: center;
+    font-size: 3.3rem;
+    font-weight: 400px;
+  }
+  /*  Set the font */
+  body {
+    font-family: "Helvetica", sans-serif;
+  }
+  
+  /* STYLES */
+  /* Write your CSS below */
