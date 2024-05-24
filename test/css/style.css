@@ -1,0 +1,539 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+/* Global CSS */
+
+* {
+  font-family: "Roboto";
+}
+
+body {
+  margin: 0px;
+  background-color: #f2f4fc;
+}
+
+h1 {
+  font-size: 60px;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+h4 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.headline {
+  font-size: 17px;
+}
+
+.caption {
+  font-size: 15px;
+}
+
+/* Header and Footer CSS */
+
+.header {
+  margin: 50px 350px;
+  padding-bottom: 50px;
+
+  .nav-bar {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+  }
+
+  .img-logo {
+    width: 80px;
+  }
+
+  .nav-links {
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    font-weight: 500;
+    color: #6b708d;
+    font-size: 17px;
+  }
+  .nav-links a {
+    text-decoration: none;
+    color: #6b708d;
+  }
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 150px 350px 100px 350px;
+
+  .logo-footer {
+    width: 100px;
+  }
+
+  p {
+    color: #6b708d;
+    font-size: 17px;
+  }
+
+  a {
+    font-size: 17px;
+    margin-left: 50px;
+    text-decoration: none;
+    color: #6b708d;
+  }
+
+  .footer-links {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+  }
+}
+
+/* Home page CSS */
+
+.button-blue {
+  padding: 15px 30px;
+  background-color: #072ac8;
+  color: white;
+  border: none;
+  font-weight: 400;
+  font-size: 17px;
+  text-decoration: none;
+}
+
+.hero {
+  display: flex;
+  flex-direction: row;
+  margin: 0px 350px;
+  padding-top: 20px;
+  padding-right: 10px;
+
+  .hero-left {
+    text-align: left;
+    max-width: 50%;
+
+    .title {
+      padding-top: 50px;
+      max-width: 600px;
+      color: #292e47;
+    }
+
+    p {
+      font-size: 20px;
+      color: #6b708d;
+      width: 450px;
+    }
+
+    .hero-flex {
+      display: flex;
+      gap: 50px;
+      width: 700px;
+      align-items: center;
+      padding-top: 20px;
+
+      p {
+        margin: 0;
+      }
+    }
+  }
+
+  .hero-right {
+    position: relative;
+    max-width: 50%;
+
+    .hero-image {
+      max-width: 100%;
+    }
+
+    .card-hero-image1 {
+      max-width: 35%;
+      border-radius: 50px;
+      position: absolute;
+      top: 0%;
+      left: 0%;
+    }
+
+    .card-hero-image2 {
+      max-width: 35%;
+      border-radius: 50px;
+      position: absolute;
+      right: 0;
+      bottom: 0%;
+    }
+  }
+}
+
+.clients-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 150px 0px;
+  margin: 0px 350px;
+
+  .img-black-white {
+    filter: grayscale(100%);
+  }
+}
+
+.project-section {
+  margin: 0px 350px;
+
+  .project-title{
+    padding-bottom: 40px;
+    color: #292e47;
+  }
+
+  .project-cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    align-items: center;
+    margin: 0 auto;
+
+    .img-card {
+      width: 350px;
+      height: 250px;
+    }
+  }
+
+  .article-container {
+    background-color: white;
+  }
+
+  .info-project{
+    padding: 0px 0px 30px 20px
+  }
+
+  h4 {
+    font-size: 24px;
+    font-weight: 500;
+    color: #292e47;
+  }
+
+  p {
+    font-size: 18px;
+    color: #292e47;
+    padding-bottom: 30px;
+  }
+
+  a {
+    text-decoration: none;
+    color: #072ac8;
+    font-weight: 500;
+  }
+}
+
+.testimonial-section {
+  position: relative;
+  background-color: #292e47;
+  margin: 100px auto;
+  width: 90%;
+  padding: 20px;
+  height: 600px;
+  background-image: url(../assets/testimonial-section/testimonial-section/orbit.png);
+  background-position: center;
+  background-size: cover;
+
+  h3 {
+    color: white;
+  }
+
+  .p-yellow {
+    font-size: 24px;
+    color: #ffc600;
+    font-weight: bold;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    line-height: 1.5em;
+  }
+
+  .testimonial-contain {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .user-profile {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: white;
+  }
+
+  .user-profile p {
+    margin: 5px;
+  }
+
+  .blue-color {
+    color: #a2d6f9;
+  }
+
+  .img-profile {
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+  }
+
+  .memoji1 {
+    width: 200px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+  }
+  .memoji2 {
+    width: 200px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+  .memoji3 {
+    width: 200px;
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+  }
+  .memoji4 {
+    width: 200px;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+  }
+}
+
+.services-section {
+  margin: 0px 350px;
+
+  .card-container {
+    background-color: white;
+    width: 250px;
+    padding: 40px 30px;
+  }
+
+  .image-service {
+    background: #f2f4fc;
+    border-radius: 50%;
+    padding: 15px;
+    width: 40px;
+    height: 40px;
+  }
+
+  .service-card {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+  }
+
+  h3 {
+    margin: 100px 0;
+  }
+
+  .service-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #292e47;
+    padding: 20px 0;
+  }
+
+  .service-info {
+    color: #6b708d;
+    line-height: 1.5em;
+    padding-bottom: 20px;
+  }
+
+  .card-container a {
+    text-decoration: none;
+    color: #072ac8;
+    font-weight: 500;
+  }
+}
+
+.contact-section {
+  margin: 100px 100px 50px 100px;
+  padding: 100px;
+  background-color: #ffc600;
+  color: #292e47;
+  width: 80%;
+  text-align: center;
+
+  h2 {
+    margin: 30px;
+  }
+
+  p {
+    margin: 30px;
+    font-size: 20px;
+  }
+
+  .input-mail {
+    background-image: url(../assets/newsletter/newsletter/icon/mail.svg);
+    background-repeat: no-repeat;
+    background-position: 5%;
+  }
+
+  .input-mail {
+    height: 60px;
+    width: 400px;
+    padding-left: 60px;
+    font-size: 17px;
+    color: #292e47;
+    margin-right: 20px;
+  }
+
+  .button-subscribe {
+    height: 63px;
+    width: 150px;
+    background-color: #072ac8;
+    color: white;
+    font-size: 17px;
+    border: none;
+  }
+}
+
+/* Project page CSS */
+
+.project {
+  margin: 0px 350px;
+
+  .title {
+    margin-bottom: 15px;
+  }
+
+  .subtitle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 50px;
+  }
+
+  .subtitle-title {
+    font-size: 22px;
+    color: #6b708d;
+    font-weight: 700;
+  }
+
+  .complete-text {
+    font-size: 20px;
+    font-weight: 500;
+    color: #6b708d;
+  }
+
+  .date-completed {
+    font-weight: 400;
+  }
+
+  .project-image {
+    width: 1200px;
+    height: 400px;
+    padding-bottom: 50px;
+  }
+
+  .project-description {
+    font-size: 20px;
+    color: #6b708d;
+    line-height: 1.4;
+    padding-bottom: 100px;
+  }
+}
+
+/* Contact page CSS */
+
+.contact-form {
+  margin: 0px 350px;
+
+  .form-title {
+    color: #292e47;
+  }
+
+  .form-element {
+    font-size: 22px;
+    color: #6b708d;
+  }
+
+  .name-div input {
+    font-family: Roboto;
+    font-size: 16px;
+    color: #6b708d;
+    width: 1200px;
+    height: 60px;
+    padding-left: 10px;
+    margin: 10px 0;
+    border: none;
+    background-color: #dcdfed;
+  }
+
+  .email-phone-div {
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    gap: 40px;
+
+    .email-div {
+      width: 50%;
+    }
+
+    .email-div input {
+      width: 100%;
+      font-family: Roboto;
+      font-size: 16px;
+      color: #6b708d;
+      height: 60px;
+      padding-left: 10px;
+      margin: 10px 0;
+      border: none;
+      background-color: #dcdfed;
+    }
+
+    .phone-div {
+      width: 50%;
+    }
+
+    .phone-div input {
+      width: 100%;
+      font-family: Roboto;
+      font-size: 16px;
+      color: #6b708d;
+      height: 60px;
+      padding-left: 10px;
+      margin: 10px 0;
+      border: none;
+      background-color: #dcdfed;
+    }
+  }
+
+  .message-div textarea {
+    width: 1200px;
+    font-family: Roboto;
+    font-size: 16px;
+    color: #6b708d;
+    margin: 10px 0;
+    padding: 20px 0px 0px 10px;
+    border: none;
+    background-color: #dcdfed;
+  }
+
+  .button-submit {
+    background-color: #072ac8;
+    margin-top: 30px;
+    font-size: 17px;
+    color: white;
+    width: 1210px;
+    height: 70px;
+    border: none;
+  }
+}
